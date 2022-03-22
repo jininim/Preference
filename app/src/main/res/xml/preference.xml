@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<Preference
+    android:key="a"
+    android:summary="A Setting summary"
+    android:title="A Setting"
+
+    android:fragment="com.example.a20220322kotlin.MySettingFragmentA">
+
+</Preference>
+    <Preference
+        android:key="B"
+        android:summary="B Setting summary"
+        android:title="B Setting"
+        android:fragment="com.example.a20220322kotlin.MySettingFragmentB">
+
+    </Preference>
+    <EditTextPreference
+        android:key="id"
+        android:title="ID 설정"/>
+
+
+
+
+</PreferenceScreen>
